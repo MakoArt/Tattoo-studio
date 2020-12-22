@@ -82,6 +82,9 @@ margin-right: auto;
     padding-right: 20%;
  
 }
+.main-nav__a:hover{
+    background:linear-gradient(90deg,#e73922,#2c1901);
+}
 
 
 /*MAIN*/
@@ -137,6 +140,9 @@ margin-right: auto;
     width:30%;
   
 
+}
+.main-main__article-inicio--button:hover{
+    background:linear-gradient(90deg,#e73922,#2c1901);
 }
   
 /*MAIN-GALERÍA*/
@@ -200,6 +206,11 @@ margin-right: auto;
     background-size: cover;
   
 }
+#main-main__article-galeria--button{
+    margin-left: 10%;
+    margin-right: auto;
+}
+
 .main-main__article-galeria--button{
     text-decoration: none;
     font-weight: bolder;
@@ -212,6 +223,9 @@ margin-right: auto;
     margin-left: 30%; 
     margin-right: auto;
     width:30%;
+}
+.main-main__article-galeria--button:hover{
+    background:linear-gradient(90deg,#e73922,#2c1901);
 }
 @media(min-width:481px){
     .main-main__article-galeria--img{
@@ -336,6 +350,9 @@ margin-right: auto;
     margin-top: 50px;
 
 }
+.main-main__article-nosotros--p{
+    text-align: center;
+}
 .main-main__article-nosotros--img1{
  background-image: url('./img/tattoos/sunglasses-4169739_1920-min.jpg');
  background-size: cover;
@@ -359,10 +376,13 @@ text-align: center;
     color: black;
     box-shadow: 9px 9px 8px black;
     text-shadow: 3px 3px 9px;
-    margin-left: 30%; 
+   
     margin-right: auto;
     width:30%;
    
+}
+.main-main__article-nosotros--button:hover{
+    background:linear-gradient(90deg,#e73922,#2c1901);
 }
   
 /*CONTACTO*/
